@@ -1,0 +1,6 @@
+/.coverage
+/ansible_basic_sphinx_ext.egg-info/
+/poetry.lock
+/setup.py
+
+__pycache__/
