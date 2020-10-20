@@ -61,5 +61,6 @@ def setup(app):
 
     return dict(
         parallel_read_safe=True,
+        parallel_write_safe=True,
         version=__version__,
     )
