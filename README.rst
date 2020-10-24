@@ -21,7 +21,7 @@ Using The extension
 Building CSS File
 -----------------
 
-The CSS file ``ansible_basic_sphinx_ext/ansible-basic-sphinx-ext.css`` is built from ``css-source/ansible-basic-sphinx-ext.scss`` using `SASS <https://sass-lang.com/>`_ and `postcss <https://postcss.org/>`_ using `autoprefixer <https://github.com/postcss/autoprefixer>`_ and `cssnano <https://cssnano.co/>`_.
+The CSS file `ansible_basic_sphinx_ext/ansible-basic-sphinx-ext.css <https://github.com/felixfontein/ansible-basic-sphinx-ext/blob/main/ansible_basic_sphinx_ext/ansible-basic-sphinx-ext.css>`_ is built from `css-source/ansible-basic-sphinx-ext.scss <https://github.com/felixfontein/ansible-basic-sphinx-ext/blob/main/css-source/ansible-basic-sphinx-ext.scss>`_ using `SASS <https://sass-lang.com/>`_ and `postcss <https://postcss.org/>`_ using `autoprefixer <https://github.com/postcss/autoprefixer>`_ and `cssnano <https://cssnano.co/>`_.
 
 Use the script ``build-css.sh`` to build the ``.css`` file from the ``.scss`` file::
 
