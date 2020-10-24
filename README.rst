@@ -13,7 +13,7 @@ Using The extension
 
        pip install ansible_basic_sphinx_ext
 
-2. Include it in your sphinx configuration ``conf.py``:
+2. Include it in your sphinx configuration ``conf.py``::
 
        # Add it to 'extensions':
        extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx', 'notfound.extension', 'ansible_basic_sphinx_ext']
