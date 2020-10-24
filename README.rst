@@ -9,7 +9,7 @@ This is a minimal Sphinx extension which adds some features from the Ansible doc
 Buiding CSS File
 ----------------
 
-The CSS file ``ansible_basic_sphinx_ext/ansible-basic-sphinx-ext.css`` is built from ``css-source/ansible-basic-sphinx-ext.scss`` using [SASS](https://sass-lang.com/) and [postcss](https://postcss.org/) using [autoprefixer](https://github.com/postcss/autoprefixer) and [cssnano](https://cssnano.co/).
+The CSS file ``ansible_basic_sphinx_ext/ansible-basic-sphinx-ext.css`` is built from ``css-source/ansible-basic-sphinx-ext.scss`` using `SASS <https://sass-lang.com/>`_ and `postcss <https://postcss.org/>`_ using `autoprefixer <https://github.com/postcss/autoprefixer>`_ and `cssnano <https://cssnano.co/>`_.
 
 Use the script ``build-css.sh`` to build the ``.css`` file from the ``.scss`` file::
 
