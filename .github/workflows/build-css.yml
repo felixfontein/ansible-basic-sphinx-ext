@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          apt-get install sassc
+          sudo apt-get install sassc
           npm install autoprefixer cssnano postcss postcss-cli
 
       - name: Build CSS
