@@ -29,7 +29,7 @@ pytest = "*"
 pytest-cov = "*"
 flake8 = "*"
 codecov = "*"
-pylint = "*"
+pylint = "^2.6.0"
 
 [tool.isort]
 line_length = 100
