@@ -20,7 +20,7 @@ packages = [
 "Changelog" = "https://github.com/felixfontein/ansible-basic-sphinx-ext/tree/main/CHANGELOG.rst"
 
 [tool.poetry.dependencies]
-python = "*"
+python = "^3.6.0"
 pygments = "*"
 sphinx = "*"
 
