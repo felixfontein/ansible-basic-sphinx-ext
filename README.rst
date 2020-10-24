@@ -6,8 +6,20 @@ This is a minimal Sphinx extension which adds some features from the Ansible doc
 1. The ``ansible-output`` Pygments lexer;
 2. Some minimal CSS so that the plugin documentation rendered by `antsibull-docs <https://pypi.org/project/antsibull/>`_ looks good.
 
-Buiding CSS File
-----------------
+Using The extension
+-------------------
+
+1. Install the extension::
+
+       pip install ansible_basic_sphinx_ext
+
+2. Include it in your sphinx configuration ``conf.py``:
+
+       # Add it to 'extensions':
+       extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx', 'notfound.extension', 'ansible_basic_sphinx_ext']
+
+Building CSS File
+-----------------
 
 The CSS file ``ansible_basic_sphinx_ext/ansible-basic-sphinx-ext.css`` is built from ``css-source/ansible-basic-sphinx-ext.scss`` using `SASS <https://sass-lang.com/>`_ and `postcss <https://postcss.org/>`_ using `autoprefixer <https://github.com/postcss/autoprefixer>`_ and `cssnano <https://cssnano.co/>`_.
 
