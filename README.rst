@@ -1,7 +1,7 @@
 Ansible Basic Sphinx Extension
 ==============================
 
-⚠️ **This extension is deprecated! Use the ``sphinx_antsibull_ext`` extension instead, which is part of `antsibull-docs <https://pypi.org/project/antsibull-docs/>`_, and the `Pygments lexer and style Ansible snippets <https://github.com/ansible-community/ansible-pygments>`_ which are a dependency of antsibull-docs!** ⚠️
+⚠️ **This extension is deprecated!** Use the ``sphinx_antsibull_ext`` extension instead, which is part of `antsibull-docs <https://pypi.org/project/antsibull-docs/>`_, and the `Pygments lexer and style Ansible snippets <https://github.com/ansible-community/ansible-pygments>`_ which are a dependency of antsibull-docs! ⚠️
 
 This is a minimal Sphinx extension which adds some features from the Ansible doc site:
 
